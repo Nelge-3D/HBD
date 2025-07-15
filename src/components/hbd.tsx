@@ -31,7 +31,7 @@ const IntroOverlay = () => {
           <PartyPopper className="w-16 h-16 text-yellow-300 animate-bounce" />
         </div>
         <h1 className="text-6xl font-bold text-white mb-4">Joyeux Anniversaire !</h1>
-        <p className="text-2xl text-white opacity-90">Prépare-toi à recevoir plein d'amour ❤️</p>
+        <p className="text-2xl text-white opacity-90">Prépare-toi à recevoir plein d&apos;amour ❤️</p>
       </div>
     </div>
   );

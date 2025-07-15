@@ -106,7 +106,7 @@ const IntroOverlay = () => {
                 animate={animationStep >= 1 ? { y: 0, opacity: 0.9 } : {}}
                 transition={{ duration: 0.8, delay: 0.3, type: 'spring' }}
               >
-                Prépare-toi à recevoir plein d'amour ❤️
+                Prépare-toi à recevoir plein d&apos;amour ❤️
               </motion.p>
 
               {/* Bouton skip (optionnel) */}

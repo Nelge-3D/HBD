@@ -102,7 +102,7 @@ const VideoTreeInterface: React.FC = () => {
           Joyeux Anniversaire ! 🎉
         </h1>
         <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-          Des messages pleins d'amour pour ton jour spécial
+          Des messages pleins d&apos;amour pour ton jour spécial
         </p>
       </div>
 
@@ -156,7 +156,7 @@ const VideoTreeInterface: React.FC = () => {
                         
                         {video.message && (
                           <p className="text-gray-700 italic text-sm border-l-4 border-pink-300 pl-3">
-                            "{video.message}"
+                            {video.message}
                           </p>
                         )}
                       </div>
@@ -207,7 +207,7 @@ const VideoTreeInterface: React.FC = () => {
               {selectedVideo.message && (
                 <div className="bg-gray-50 rounded-lg p-4">
                   <p className="text-gray-700 italic text-center">
-                    "{selectedVideo.message}"
+                    {selectedVideo.message}
                   </p>
                 </div>
               )}
