@@ -180,8 +180,8 @@ const VideoTreeInterface: React.FC = () => {
                     <selectedVideo.icon className="w-5 h-5 text-white" />
                   </div>
                   <div>
-                    <h2 className="text-2xl font-bold text-gray-800">{selectedVideo.title}</h2>
-                    <p className="text-gray-600">Par {selectedVideo.author}</p>
+                    <h2 className="text-2xl font-bold text-gray-800">{selectedVideo.message}</h2>
+                    <p className="text-gray-600">Par {selectedVideo.id}</p>
                   </div>
                 </div>
                 <button
